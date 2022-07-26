@@ -82,7 +82,7 @@ RUN cd /opt && \
 RUN pip install --target=/opt/paraview/lib/python3.8/site-packages/ --upgrade wslink cryptography
 
 # RUN ["/opt/paraviewweb/scripts/addEndpoints.sh", \
-#   "enlil", "/opt/paraview/share/paraview-5.9/web/visualizer/www" \
+#   "h3lioviz", "/opt/paraview/share/paraview-5.9/web/visualizer/www" \
 # ]
 
 # Start the container.  If we're not running this container, but rather are

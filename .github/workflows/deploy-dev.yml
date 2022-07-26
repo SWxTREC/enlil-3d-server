@@ -21,4 +21,4 @@ jobs:
 
     - name: Deploy to s3
       run: |
-        aws s3 sync . s3://enlil.dev.swx-trec.com/backend/ --exclude="*.git/*" --delete
+        aws s3 sync . s3://h3lioviz.dev.swx-trec.com/backend/ --exclude="*.git/*" --delete

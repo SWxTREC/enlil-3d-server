@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   pvw:
-    image: public.ecr.aws/enlil/paraview_web_repo:${PVW_IMAGE_TAG:-pvw-enlil-osmesa}
+    image: public.ecr.aws/h3lioviz/paraview_web_repo:${PVW_IMAGE_TAG:-h3lioviz-osmesa}
     ports:
       - "8080:80"
     volumes:
